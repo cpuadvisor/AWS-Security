@@ -5,4 +5,4 @@ env:
 phases:
   build:
     commands:
-      - mvn verify sonar:sonar -Dsonar.projectKey=aws-security-dev-testing-thing_aws-security-dev-testing-thing -Dsonar.organization=aws-security-dev-testing-thing -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=7bb201259fb440249c8c4cfba77c33af2f8bc8b0 
+      - mvn verify sonar:sonar -Dsonar.projectKey=aws-security-dev-testing-thing_aws-security-dev-testing-thing -Dsonar.organization=aws-security-dev-testing-thing -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$TOKEN 
