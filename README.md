@@ -6,7 +6,7 @@ Vulnerabilities feature and includes both a "Reachable" vulnerability (with a di
 
 ## Included vulnerabilities
 ### [Arbitrary File Write via Archive Extraction](https://app.snyk.io/vuln/SNYK-JAVA-ORGND4J-72550)
-An exploit is using a vulnerability called [ZipSlip](https://snyk.io/research/zip-slip-vulnerability) - a critical vulnerability discovered 
+An exploit is using a vulnerability called [ZipSlip](https://snyk.io/research/zip-slip-vulnerability) - a critical123 vulnerability discovered 
 by Snyk, which typically results in remote command execution. As part of the exploit, a special zip archive is 
 crafted (attached as `malicious_file.zip`). When this file is extracted by a vulnerable function, it will create a file 
 called `good.txt` in the folder `unzipped`, but it will also create a file called `evil.txt` in the `/tmp/` folder. 
