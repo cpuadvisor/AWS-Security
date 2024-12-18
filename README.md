@@ -1,14 +1,14 @@
 # AWS Security! HI
 
 This is an intentionally vulnerable application. It was purposely designed to demonstrate the capabilities of Snyk's Reachable
-Vulnerabilities feature and includes both a "Reachable" vulnerability (with a direct data flow to the vulnerable function) and a "Potentially Reachable" vulnerability (where only partial data exists for determining reachability).
+Vulnerabilities feature and includes both a "Reachable" vulnerability (with123 a direct data flow to the vulnerable function) and a "Potentially Reachable" vulnerability (where only partial data exists for determining reachability).
 
 ## Working on a new feature
 Adding stuff as a demo
 
 ## Included vulnerabilities
 ### [Arbitrary File Write via Archive Extraction](https://app.snyk.io/vuln/SNYK-JAVA-ORGND4J-72550)
-An exploit is using a vulnerability called [ZipSlip](https://snyk.io/research/zip-slip-vulnerability) - a critical vulnerability discovered 
+An exploit is using a vulnerability called [ZipSlip](https://snyk.io/research/zip-slip-vulnerability) - a critical123 vulnerability discovered 
 by Snyk, which typically results in remote command execution. As part of the exploit, a special zip archive is 
 crafted (attached as `malicious_file.zip`). When this file is extracted by a vulnerable function, it will create a file 
 called `good.txt` in the folder `unzipped`, but it will also create a file called `evil.txt` in the `/tmp/` folder. 
